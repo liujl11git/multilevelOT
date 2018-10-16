@@ -1,0 +1,28 @@
+
+[Whether to compile]
+The file "otFunctions/W1PD_ML.m" does not need compilation.
+The file "otFunctions/W1PDHG_ML.m" calls a mex file. Thus we have to compile "emdPDHG.cpp" before running.
+
+[Compilation on Linux]
+1. install g++: sudo apt-get install g++
+2. install MATLAB (later than R2016a)
+3. install fftw, a libary to compute FFT.
+  3-1. download the tar.gz file from http://www.fftw.org/download.html
+  3-2. unzip the file to the home path ~/
+  3-3. type in terminal: cd ~/fftw-3.3.8
+  3-4. type in terminal: ./configure --enable-shared
+  3-5. type in terminal: make
+  3-6. type in terminal: sudo make install
+4. run "initialize.m"
+5. run "src_c/compile_pdhg.m", there will be a "emdPDHG.mexa64".
+
+[Compilation on MacOS]
+similar to Linux. Eventually there will be a "emdPDHG.mexmac64".
+
+[Compilation on Windows]
+1. install MINGW64: http://www.math.ucla.edu/~wotaoyin/windows_coding.html
+2. install MATLAB (later than R2016a)
+3. install fftw: http://www.math.ucla.edu/~wotaoyin/windows_coding.html
+4. run "initialize.m"
+5. type in MATLAB command: setenv('MW_MINGW64_LOC','C:\msys64\mingw64');
+6. type in MATLAB command: mex emdPDHG.cpp mexGateway_emd.cpp C:\msys64\mingw64\lib\libfftw3.a
