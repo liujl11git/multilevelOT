@@ -11,7 +11,12 @@ Matthew Jacobs, majaco@math.ucla.edu
 3. "demo/demo_cat_Algorithm_1M.m" and "demo/demo_img_Algorithm_1M.m" are two demos of "W1PD_ML.m".
 4. "demo/demo_cat_Algorithm_2M.m" and "demo/demo_img_Algorithm_2M.m" are two demos of "W1PDHG_ML.m".
 
+[Precompiled files]
+1. Precompiled file "emdPDHG.mexa64" for linux 64 bit system is in "src_c" folder.
+2. Precompiled file "emdPDHG.mexw64" for windows 64 bit system is in "src_c" folder.
+
 [How to compile]
+If the above precompiled files do not work for you:
 1. "W1PD_ML.m" is implemented purely by MATLAB codes. So it can be run without compilation.
 2. "W1PDHG_ML.m" is based on C source codes. We have to compile it before running.
 3. To compile, please refer the file "how_to_compile".
