@@ -25,4 +25,6 @@ similar to Linux. Eventually there will be a "emdPDHG.mexmac64".
 3. install fftw: http://www.math.ucla.edu/~wotaoyin/windows_coding.html
 4. run "initialize.m"
 5. type in MATLAB command: setenv('MW_MINGW64_LOC','C:\msys64\mingw64');
-6. type in MATLAB command: mex emdPDHG.cpp mexGateway_emd.cpp C:\msys64\mingw64\lib\libfftw3.a
+6. type in MATLAB command: cd src_c;
+7. type in MATLAB command: mex emdPDHG.cpp mexGateway_emd.cpp C:\msys64\mingw64\lib\libfftw3.a
+8. there will be a file named "emdPDHG.mexw64".

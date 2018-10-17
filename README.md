@@ -1,4 +1,4 @@
-Matlab codes for the optimal transport algorithm in [1].
+Matlab codes for the multilevel optimal transport (OT) algorithm in [1].
 
 [Authors]
 Jialin Liu, liujl11@math.ucla.edu
@@ -22,7 +22,7 @@ If the above precompiled files do not work for you:
 3. To compile, please refer the file "how_to_compile".
 
 [How to run]
-1. Enter the current path.
+1. Enter the root path of this project.
 2. Please run "initialize.m."
 3. Run the script files in the "demo/" folders.
 
