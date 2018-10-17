@@ -10,6 +10,7 @@ Matthew Jacobs, majaco@math.ucla.edu
 2. "otFunctions/W1PDHG_ML.m" is the Algorithm 2M in [1].
 3. "demo/demo_cat_Algorithm_1M.m" and "demo/demo_img_Algorithm_1M.m" are two demos of "W1PD_ML.m".
 4. "demo/demo_cat_Algorithm_2M.m" and "demo/demo_img_Algorithm_2M.m" are two demos of "W1PDHG_ML.m".
+5. The first attempt to run "W1PDHG_ML" may take longer time than we reported in the paper. The reason is that FFT needs setup time. You may uncomment line 58 in "otFunctions/W1PDHG_ML.m" to display the FFT setup time.
 
 [Precompiled files]
 1. Precompiled file "emdPDHG.mexa64" for linux 64 bit system is in "src_c" folder.
