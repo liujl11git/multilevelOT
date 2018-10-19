@@ -1,10 +1,5 @@
 Matlab codes for the multilevel optimal transport (OT) algorithm in [1].
 
-[Authors]
-Jialin Liu, liujl11@math.ucla.edu
-Wuchen Li, wcli@math.ucla.edu
-Matthew Jacobs, majaco@math.ucla.edu
-
 [Note]
 1. "otFunctions/W1PD_ML.m" is the Algorithm 1M in [1].
 2. "otFunctions/W1PDHG_ML.m" is the Algorithm 2M in [1].
