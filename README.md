@@ -15,6 +15,7 @@ Matthew Jacobs, majaco@math.ucla.edu
 [Precompiled files]
 1. Precompiled file "emdPDHG.mexa64" for linux 64 bit system is in "src_c" folder.
 2. Precompiled file "emdPDHG.mexw64" for windows 64 bit system is in "src_c" folder.
+3. Precompiled file "emdPDHG.mexmaci64" for windows 64 bit system is in "src_c" folder.
 
 [How to compile]
 If the above precompiled files do not work for you:

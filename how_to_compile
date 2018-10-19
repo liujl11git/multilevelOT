@@ -17,7 +17,7 @@ The file "otFunctions/W1PDHG_ML.m" calls a mex file. Thus we have to compile "em
 5. run "src_c/compile_pdhg.m", there will be a "emdPDHG.mexa64".
 
 [Compilation on MacOS]
-similar to Linux. Eventually there will be a "emdPDHG.mexmac64".
+similar to Linux. Eventually there will be a "emdPDHG.mexmaci64".
 
 [Compilation on Windows]
 1. install MINGW64: http://www.math.ucla.edu/~wotaoyin/windows_coding.html
