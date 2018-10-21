@@ -1,5 +1,12 @@
 Matlab codes for the multilevel optimal transport (OT) algorithm in [1].
 
+[Problem description]
+Given two probability distributions (2D), or two images, rho0 and rho1, we want to find a transport between them with minimal energy:
+
+min_{m} \|m\|_p,
+s.t. divergence(m) = rho0-rho1,
+     with zero-flux boundary condition.
+
 [Note]
 1. "otFunctions/W1PD_ML.m" is the Algorithm 1M in [1].
 2. "otFunctions/W1PDHG_ML.m" is the Algorithm 2M in [1].

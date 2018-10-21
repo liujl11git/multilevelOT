@@ -6,8 +6,8 @@ function [m,gphi,potential] = W1PDHG_ML(dx, rho0, rho1, p,opts)
 % Author: Jialin Liu (liujl11@math.ucla.edu) Modified: 2018-10-10
 % 
 % Note: This function depends on a mex file (emdPDHG.mexa64 for linux;
-% emdPDHG.mexw64 for windows; emdPDHG.mexmac64 for mac)
-% The mexfile is compiled with a C source code edited by 
+% emdPDHG.mexw64 for windows; emdPDHG.mexmaci64 for macOS)
+% The mexfile is compiled with a C source code authored by 
 % Matthew Jacobs @ UCLA (majaco@math.ucla.edu).
 
 %% paramters
