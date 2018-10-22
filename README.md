@@ -60,5 +60,7 @@ The first attempt to run "W1PDHG_ML" may take longer time than we reported in th
 [References]
 
 [1] J. Liu, W. Yin, W. Li, Y.T. Chow, "Multilevel Optimal Transport: a Fast Approximation of Wasserstein-1 distances", submitted, 2018.
+
 [2] M. Jacobs, F. Leger, W. Li, S. Osher, "Solving Large-Scale Optimization Problems with a Convergence Rate Independent of Grid Size", submitted, 2018.
+
 [3] W. Li, E. Ryu, S. Osher, W. Yin, W. Gangbo, "A Parallel Method for Earth Mover's Distance." Journal of Scientific Computing, 2018.
