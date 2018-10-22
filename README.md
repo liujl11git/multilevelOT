@@ -1,6 +1,7 @@
 Matlab codes for the multilevel optimal transport (OT) algorithm in [1].
 
 [Problem description]
+
 Given two probability distributions (2D), or two images, rho0 and rho1, we want to find a transport between them with minimal energy:
 
 min_{m} ||m||_p,
@@ -53,9 +54,11 @@ We provide precompiled files for the following three platforms:
 3. Precompiled file "emdPDHG.mexmaci64" for windows 64 bit system is in "src_c" folder.
 
 [Detailed Notes]
+
 The first attempt to run "W1PDHG_ML" may take longer time than we reported in the paper. The reason is that FFT needs setup time. You may uncomment line 58 in "otFunctions/W1PDHG_ML.m" to display the FFT setup time.
 
 [References]
+
 [1] J. Liu, W. Yin, W. Li, Y.T. Chow, "Multilevel Optimal Transport: a Fast Approximation of Wasserstein-1 distances", submitted, 2018.
 [2] M. Jacobs, F. Leger, W. Li, S. Osher, "Solving Large-Scale Optimization Problems with a Convergence Rate Independent of Grid Size", submitted, 2018.
 [3] W. Li, E. Ryu, S. Osher, W. Yin, W. Gangbo, "A Parallel Method for Earth Mover's Distance." Journal of Scientific Computing, 2018.
