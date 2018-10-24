@@ -1,5 +1,11 @@
 Matlab codes for the multilevel optimal transport (OT) algorithm in [1].
 
+Optimal transport (OT) plays crucial roles in many areas, including fluid dynamics, image processing, machine learning and control. It is a well-posed distance measuring two probability distributions over a given domain. The distance is often named Earth Mover’s distance (EMD) or the Wasserstein distance.
+
+Our solver focuses on the Wasserstein-1 distance and has the following advantages:
+* Fast. It gives solution of grid 1024*1024 within seconds on a single CPU.
+* User friendly. Users can run the demos without installation.
+
 Problem description
 ===================
 Given two probability distributions (2D), or two images, rho0 and rho1, we want to find a transport between them with minimal energy:
