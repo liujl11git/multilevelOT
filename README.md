@@ -17,8 +17,9 @@ Algorithms and Functions
 2. "otFunctions/W1PDHG_ML.m" implements the Algorithm 2M in [1].
 
 ## Syntax
-1. [m,phi] = W1PD_ML(dx, rho0, rho1, p, opts);
-2. [m,gphi,phi] = W1PDHG_ML(dx, rho0, rho1, p,opts);
+'''[m,phi] = W1PD_ML(dx, rho0, rho1, p, opts);
+
+[m,gphi,phi] = W1PDHG_ML(dx, rho0, rho1, p,opts);'''
 
 ## Input Description
 1. dx, rho0, rho1, p: defined in [Problem Description].
