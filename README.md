@@ -12,11 +12,9 @@ Problem description
 ===================
 Given two 2D probability distributions, or two images, rho0 and rho1, we want to find a transport from one to the other with the minimal energy:
 
-minimize_{m} integral ||m(x)||_p dx
-subject to   divergence_h(m) = rho0 - rho1,
-             under the zero-flux boundary condition.
+![equation](https://latex.codecogs.com/gif.latex?%5Cmin_m%20%7E%7E%7E%5Cint_x%20%5C%7Cm%28x%29%5C%7C_p%20dx%5C%5C%20%5Ctext%7Bsubject%20to%7D%7E%7E%20div%28m%29%20%3D%20%5Crho%5E0%20-%20%5Crho%5E1%2C%5C%5C%20%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%5Ctext%7Bunder%20the%20zero-flux%20boundary%20condition%7D.)
 
-Here, p can be 1, 2, or inifity, so ||m(x)||_p is the 1, 2, or infinity norms of m(x), respectively,
+Here, p can be 1, 2, or inifity, so ![equation](https://latex.codecogs.com/gif.latex?%5C%7Cm%28x%29%5C%7C_p) is the 1, 2, or infinity norms of m(x), respectively,
 and h is the grid step size.
 
 Algorithms and Functions
@@ -72,8 +70,8 @@ When you run "W1PDHG_ML" for the first time, some FFT codes takes an extra time 
 
 References
 ==========
-[1] J. Liu, W. Yin, W. Li, Y.T. Chow, "Multilevel Optimal Transport: a Fast Approximation of Wasserstein-1 distances," submitted, 2018.
+[1] Liu, J., Yin, W., Li, W., & Chow, Y. T. (2018). Multilevel Optimal Transport: a Fast Approximation of Wasserstein-1 distances. arXiv preprint arXiv:1810.00118.
 
-[2] M. Jacobs, F. Leger, W. Li, S. Osher, "Solving Large-Scale Optimization Problems with a Convergence Rate Independent of Grid Size," submitted, 2018.
+[2] Jacobs, M., Léger, F., Li, W., & Osher, S. (2018). Solving Large-Scale Optimization Problems with a Convergence Rate Independent of Grid Size. arXiv preprint arXiv:1805.09453.
 
-[3] W. Li, E. Ryu, S. Osher, W. Yin, W. Gangbo, "A Parallel Method for Earth Mover's Distance," Journal of Scientific Computing, 75(1), 182–197, 2018.
+[3] Li, W., Ryu, E. K., Osher, S., Yin, W., & Gangbo, W. (2018). A parallel method for earth mover’s distance. Journal of Scientific Computing, 75(1), 182-197.
