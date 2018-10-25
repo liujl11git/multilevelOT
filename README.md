@@ -12,7 +12,7 @@ Problem description
 ===================
 Given two 2D probability distributions, or two images, rho0 and rho1, we want to find a transport from one to the other with the minimal energy:
 
-![equation](https://latex.codecogs.com/gif.latex?%5Cmin_m%20%7E%7E%7E%5Cint_x%20%5C%7Cm%28x%29%5C%7C_p%20dx%5C%5C%20%5Ctext%7Bsubject%20to%7D%7E%7E%20div%28m%29%20%3D%20%5Crho%5E0%20-%20%5Crho%5E1%2C%5C%5C%20%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%5Ctext%7Bunder%20the%20zero-flux%20boundary%20condition%7D.)
+![equation](https://latex.codecogs.com/gif.latex?%5Cmin_m%20%7E%7E%7E%5Cint_x%20%5C%7Cm%28x%29%5C%7C_p%20dx%5C%5C%20%5Ctext%7Bsubject%20to%7D%7E%7E%20%5Ctext%7Bdivergence%7D_h%28m%29%20%3D%20%5Crho%5E0%20-%20%5Crho%5E1%2C%5C%5C%20%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%7E%5Ctext%7Bunder%20the%20zero-flux%20boundary%20condition%7D.)
 
 Here, p can be 1, 2, or inifity, so ![equation](https://latex.codecogs.com/gif.latex?%5C%7Cm%28x%29%5C%7C_p) is the 1, 2, or infinity norms of m(x), respectively,
 and h is the grid step size.
