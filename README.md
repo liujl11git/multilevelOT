@@ -70,8 +70,8 @@ When you run "W1PDHG_ML" for the first time, some FFT codes takes an extra time 
 
 References
 ==========
-[1] Liu, J., Yin, W., Li, W., & Chow, Y. T. (2018). Multilevel Optimal Transport: a Fast Approximation of Wasserstein-1 distances. arXiv preprint arXiv:1810.00118.
+[1] Liu, J., Yin, W., Li, W., & Chow, Y. T. (2018). "Multilevel Optimal Transport: a Fast Approximation of Wasserstein-1 distances." arXiv preprint arXiv:1810.00118.
 
-[2] Jacobs, M., Léger, F., Li, W., & Osher, S. (2018). Solving Large-Scale Optimization Problems with a Convergence Rate Independent of Grid Size. arXiv preprint arXiv:1805.09453.
+[2] Jacobs, M., Léger, F., Li, W., & Osher, S. (2018). "Solving Large-Scale Optimization Problems with a Convergence Rate Independent of Grid Size." arXiv preprint arXiv:1805.09453.
 
-[3] Li, W., Ryu, E. K., Osher, S., Yin, W., & Gangbo, W. (2018). A parallel method for earth mover’s distance. Journal of Scientific Computing, 75(1), 182-197.
+[3] Li, W., Ryu, E. K., Osher, S., Yin, W., & Gangbo, W. (2018). "A parallel method for earth mover’s distance." Journal of Scientific Computing, 75(1), 182-197.
