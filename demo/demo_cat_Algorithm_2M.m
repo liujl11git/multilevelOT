@@ -6,7 +6,6 @@
 % Author: Jialin Liu (liujl11@math.ucla.edu) Modified: 2018-10-10
 % 
 
-clear;
 %% problem settings
 [h,rho0,rho1,x,y] = ReadMAT('cat1024.mat');
 
